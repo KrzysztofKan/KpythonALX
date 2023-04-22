@@ -62,4 +62,4 @@ it = dl
 while it != 0:
     suma += int(string[it-1])
     it -= 1
-print(suma)
+print('Suma cyfr liczby',string ,'to',suma)
