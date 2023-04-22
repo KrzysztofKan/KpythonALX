@@ -58,8 +58,7 @@ print(count,'\n')
 string = '548'
 suma = 0
 dl = len(str(string))
-it = dl
-while it != 0:
-    suma += int(string[it-1])
-    it -= 1
+while dl != 0:
+    suma += int(string[dl-1])
+    dl -= 1
 print('Suma cyfr liczby',string ,'to',suma)
