@@ -62,3 +62,27 @@ while dl != 0:
     suma += int(string[dl-1])
     dl -= 1
 print('Zadanie 3, Suma cyfr liczby',string ,'to',suma)
+
+liczba = 13
+T2 = liczba
+count = 0
+while T2 > 0:
+    if liczba %T2 == 0:
+        count +=1
+    T2 -=1
+if count == 2:
+    print(liczba,' jest liczba pierwsza')
+else:
+    print(liczba, ' nie jest liczba pierwsza')
+
+liczbad = 497
+sumad = 0
+T3 = liczbad -1
+while T3 > 0:
+    if liczbad %T3 ==0:
+        sumad +=T3
+    T3 -=1
+if liczbad == sumad:
+    print(liczbad,' jest doskonala')
+else:
+    print(liczbad, ' nie doskonala')
