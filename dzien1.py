@@ -63,7 +63,8 @@ while dl != 0:
     dl -= 1
 print('Zadanie 3, Suma cyfr liczby',string ,'to',suma)
 
-liczba = 13
+
+liczba = 14
 T2 = liczba
 count = 0
 while T2 > 0:
@@ -71,11 +72,12 @@ while T2 > 0:
         count +=1
     T2 -=1
 if count == 2:
-    print(liczba,' jest liczba pierwsza')
+    print('Zadanie 4 ',liczba,' jest liczba pierwsza')
 else:
-    print(liczba, ' nie jest liczba pierwsza')
+    print('Zadanie 4 ',liczba, ' nie jest liczba pierwsza')
+    
 
-liczbad = 497
+liczbad = 496
 sumad = 0
 T3 = liczbad -1
 while T3 > 0:
@@ -83,6 +85,6 @@ while T3 > 0:
         sumad +=T3
     T3 -=1
 if liczbad == sumad:
-    print(liczbad,' jest doskonala')
+    print('Zadanie 5 ',liczbad,' jest doskonala')
 else:
-    print(liczbad, ' nie doskonala')
+    print('Zadanie 5 ',liczbad, ' nie doskonala')
