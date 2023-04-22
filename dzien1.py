@@ -61,4 +61,4 @@ dl = len(string)
 while dl != 0:
     suma += int(string[dl-1])
     dl -= 1
-print('Suma cyfr liczby',string ,'to',suma)
+print('Zadanie 3, Suma cyfr liczby',string ,'to',suma)
