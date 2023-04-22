@@ -57,7 +57,7 @@ print(count,'\n')
 
 string = '548'
 suma = 0
-dl = len(str(string))
+dl = len(string)
 while dl != 0:
     suma += int(string[dl-1])
     dl -= 1
